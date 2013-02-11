@@ -1016,7 +1016,7 @@ while [ -n "$1" ]; do
 				stopwhich=all; shift
 			else
 				# backward compat
-				stopwhich=all-warn
+				stopwhich=all
 			fi
 			;;
 		--version|-V) 
